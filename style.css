@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Young+Serif&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+
+}
+header{
+    background-color:rgb(117, 65, 40);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-content: center;
+}
+nav{
+    display: flex;
+    flex-flow: row nowrap;
+    flex: auto;
+    justify-content: end;
+    margin: 10px 20px;
+    padding: 20px;
+}
+button{
+    background-color: bisque;
+    border-radius: 5px;
+    border:none;
+    padding: 5px ;
+    margin: 0px 5px;
+    width: 60px;
+    
+}
+input{
+    background-color: bisque;
+    border-radius: 5px;
+    border:none;
+    padding: 5px ;
+    margin: 0px 5px;
+    width: 100px;
+   
+}
+::placeholder{
+    color:rgb(117, 65, 40) ;
+}
+h1{
+    text-justify: center;
+    text-align: center;
+    color: bisque;
+    margin: 20px 20px 20px 10px;
+    font-size:40px;
+}
+main{
+    display: flex;
+    flex-flow: column nowrap;
+    flex: auto;
+    justify-content:start;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    
+}
+
+.titulo-principal
+{
+    font-size: 30pt;
+    color: rgb(30, 15, 0);
+    margin-bottom: 20px;
+
+}
+h2{
+    color: rgb(30, 15, 0);
+
+}
+p{
+   color: rgb(37, 21, 5);
+   margin: 20px 0px 20px 0px;
+
+}
+section{
+    background-color:rgba(255, 228, 196, 0.575);
+    border-radius: 10px;
+    padding: 15px;
+
+
+
+}
+article{
+    background-color: rgba(255, 228, 196, 0.575);
+    border-radius: 15px;
+
+
+}
