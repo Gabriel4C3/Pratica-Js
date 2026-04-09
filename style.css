@@ -58,7 +58,7 @@ h1{
     font-size:40px;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-style: normal;
 
 }
@@ -73,11 +73,11 @@ main{
     
 }
 
-.titulo-principal
-{
+.titulo-principal{
+
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-style: normal;
     font-size: 30pt;
     color: rgb(30, 15, 0);
