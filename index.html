@@ -51,11 +51,11 @@
             </article>
             <script>
                 function login() {
-                var usuario = document.getElementById("usuario").value; // variavel usuario recebe id usuario
+                let usuario = document.getElementById("usuario").value; // variavel usuario recebe id usuario
                 
-                var senha = document.getElementById("senha").value; //variavel senha recebe id senha
-                document.getElementById("user").innerText = usuario;
-                document.getElementById("password").innerText = senha;
+                let senha = document.getElementById("senha").value; //variavel senha recebe id senha
+                document.getElementById("user").innerText = usuario + " legal"; // id user(que no caso é um paragrafo) recebe as informações do imput usuario(ou id usuario ambos nesse exemplo tem o mesmo nome)
+                document.getElementById("password").innerText = senha;// mesma coisa do user.
             }                
 
 
