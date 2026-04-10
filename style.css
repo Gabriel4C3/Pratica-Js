@@ -108,3 +108,20 @@ article{
 
 
 }
+body.modo-escuro{
+    
+        background-color: rgb(24, 2, 2);
+        color: bisque;
+    
+}
+.escuro{
+     background-color: rgb(56, 6, 6);
+        color: bisque;
+
+}
+.titulo-escuro{
+    color: antiquewhite;
+}
+.botao-escuro{
+    tex
+}

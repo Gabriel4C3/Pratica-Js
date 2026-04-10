@@ -7,21 +7,21 @@
     
     <title>Praticando JS</title>
 </head>
-<body>
-    <header>
+<body id="body">
+    <header id="head">
         <h1>Pratica de <strong>JS</strong></h1>
         <nav>
             <input  type="text" id="usuario" placeholder="Usuario" name="usuario">
             <input type="password" id="senha" placeholder="Senha" name="senha">
             <button onclick="login()">Entrar</button>
-            <button>Criar</button>
+            <button id="modoE" onclick="modo() ">Dark</button>
            
 
         </nav>
 
     </header>
     <main>
-         <div><h2 class="titulo-principal">
+         <div><h2 id="titulo1" class="titulo-principal">
                 Lorem ipsum dolor sit amet consectetur
                  </h2>
             </div>
@@ -56,7 +56,17 @@
                 let senha = document.getElementById("senha").value; //variavel senha recebe id senha
                 document.getElementById("user").innerText = usuario + " legal"; // id user(que no caso é um paragrafo) recebe as informações do imput usuario(ou id usuario ambos nesse exemplo tem o mesmo nome)
                 document.getElementById("password").innerText = senha;// mesma coisa do user.
-            }                
+               
+                } 
+                function modo(){
+                    document.body.classList.toggle("modo-escuro")
+                    document.getElementById("head").classList.toggle("escuro")
+                    document.getElementById("titulo1").classList.toggle("titulo-escuro")
+                    document.getElementById("modoE").innerText = "light"
+                }
+
+                
+
 
 
             </script>
